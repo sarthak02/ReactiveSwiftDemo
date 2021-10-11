@@ -61,7 +61,7 @@ public class ViewModel {
                 onPingLoadingErrorObserver.send(value: error.localizedDescription)
             case .Loading:
                 // While the use case execution is in progress, we show "..."
-                onPingLoadingObserver.send(value: "Loading...")
+                onPingLoadingObserver.send(value: "Loading....")
             }
         }
         
@@ -74,7 +74,7 @@ public class ViewModel {
                 onDingLoadingErrorObserver.send(value: error.localizedDescription)
             case .Loading:
                 // While the use case execution is in progress, we show "..."
-                onDingLoadingObserver.send(value: "Loading...")
+                onDingLoadingObserver.send(value: "Loading....")
             }
         }
     }
